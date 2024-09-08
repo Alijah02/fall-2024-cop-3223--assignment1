@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 
-// Define PI constant
+// Define PI as a constant
 #define PI 3.14159
 
 // Function Prototypes
@@ -12,20 +12,20 @@ double calculateWidth();
 double calculateHeight();
 double askForUserInput();
 
-// Main function
+// The main function
 int main(int argc, char **argv) {
-    // Call all functions for testing purposes
+    // Calls all the functions to test them
     calculateDistance();
     calculatePerimeter();
     calculateArea();
     calculateWidth();
     calculateHeight();
 
-    // Ensure the program exits with status 0
+    
     return 0;
 }
 
-// Function to ask for user input
+// ask for the user input
 double askForUserInput() {
     double value;
     printf("Please enter a value: ");
@@ -37,7 +37,7 @@ double askForUserInput() {
 double calculateDistance() {
     double x1, y1, x2, y2;
 
-    // Get input from user
+    // Getting the input from the user
     printf("Enter x1: ");
     x1 = askForUserInput();
     printf("Enter y1: ");
@@ -47,10 +47,9 @@ double calculateDistance() {
     printf("Enter y2: ");
     y2 = askForUserInput();
 
-    // Calculate distance
+    // Calculate the distance
     double distance = sqrt(pow(x2 - x1, 2) + pow(y2 - y1, 2));
-
-    // Output the result in the required format
+  
     printf("The distance between the two points is %f\n", distance);
 
     return distance;
