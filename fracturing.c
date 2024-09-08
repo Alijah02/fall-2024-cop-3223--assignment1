@@ -4,7 +4,7 @@
 #define PI 3.14159
 
 // Function Prototypes
-int main(int argc, char **argc);
+int main(int argc, char **argv);
 double calculateDistance();
 double calculatePerimeter();
 double calculateArea();
@@ -12,7 +12,7 @@ double calculateWidth();
 double calculateHeight();
 
 // Main Function
-int main(int argc, char **argc) {
+int main(int argc, char **argv) {
     // This function has no output
     return 1;
 }
