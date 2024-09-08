@@ -3,7 +3,7 @@
 
 #define PI 3.14159
 
-// Function Prototypes
+// The functions
 int main(int argc, char **argv);
 double calculateDistance();
 double calculatePerimeter();
@@ -11,13 +11,13 @@ double calculateArea();
 double calculateWidth();
 double calculateHeight();
 
-// Main Function
+// The main funnction of the code 
 int main(int argc, char **argv) {
-    // This function has no output
+    
     return 1;
 }
 
-// Function to calculate the distance between two points
+// Calculating the distance between the two points
 double calculateDistance() {
     double x1, y1, x2, y2;
     printf("Enter x1: ");
@@ -29,10 +29,10 @@ double calculateDistance() {
     printf("Enter y2: ");
     scanf("%lf", &y2);
     
-    // Calculate the distance
+    // distance calculations
     double distance = sqrt(pow(x2 - x1, 2) + pow(y2 - y1, 2));
 
-    // Output
+    // The ouput
     printf("Point #1 entered: x1 = %.2lf; y1 = %.2lf\n", x1, y1);
     printf("Point #2 entered: x2 = %.2lf; y2 = %.2lf\n", x2, y2);
     printf("The distance between the two points is %.2lf\n", distance);
@@ -40,7 +40,8 @@ double calculateDistance() {
     return distance;
 }
 
-// Function to calculate the perimeter of the circle
+// Break number 2 
+// Calculating the perimeter of the circle
 double calculatePerimeter() {
     double distance = calculateDistance();
     
@@ -54,6 +55,7 @@ double calculatePerimeter() {
     return 3.0;
 }
 
+// Break number 3
 // Function to calculate the area of the circle
 double calculateArea() {
     double distance = calculateDistance();
