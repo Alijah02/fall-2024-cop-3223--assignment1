@@ -3,14 +3,6 @@
 
 #define PI 3.14159
 
-// The functions
-int main(int argc, char **argv);
-double calculateDistance();
-double calculatePerimeter();
-double calculateArea();
-double calculateWidth();
-double calculateHeight();
-
 // The main funnction of the code 
 int main(int argc, char **argv) {
     
